@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@vercel/static-build": "^2.5.36",
     "msw": "^0.47.3"
   }
 }

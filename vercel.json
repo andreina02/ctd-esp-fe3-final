@@ -2,7 +2,7 @@
     "builds": [
       {
         "src": "package.json",
-        "use": "@vercel/react-build"
+        "use": "@vercel/static-build"
       }
     ],
     "routes": [
