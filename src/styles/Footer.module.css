@@ -1,0 +1,29 @@
+.footer {
+    background-color: #4c77af;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-left: 10px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .socialIcons img {
+    height: 25px;
+    transition: transform 0.3s ease;
+  }
+  
+  .socialIcons img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }

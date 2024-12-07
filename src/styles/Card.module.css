@@ -1,0 +1,69 @@
+.cardContainerDos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid firebrick;
+    border-radius: 10 px;
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    color: firebrick;
+}
+
+.cardImgDos{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.listContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.cardContainer {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    background-color: white;
+  }
+  
+  .cardContainer:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .favButton {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .favButton:hover {
+    background-color: #ff4500;
+  }
+
+  .card {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+  }
+  
+  .card.dark {
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+  }
